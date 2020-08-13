@@ -48,7 +48,7 @@ const Layout = ({ location, title, children }) => {
     )
   }
   return (<>
-    <a href="http://joebentleyphysics.com" style={{marginLeft: '1em', marginTop: '1em'}}>home</a>
+    <a href="https://joebentleyphysics.com" style={{marginLeft: '1em', marginTop: '1em'}}>home</a>
     <div
       style={{
         marginLeft: `auto`,
