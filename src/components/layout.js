@@ -47,7 +47,8 @@ const Layout = ({ location, title, children }) => {
       </h3>
     )
   }
-  return (
+  return (<>
+    <a href="http://joebentleyphysics.com" style={{marginLeft: '1em', marginTop: '1em'}}>home</a>
     <div
       style={{
         marginLeft: `auto`,
@@ -64,7 +65,7 @@ const Layout = ({ location, title, children }) => {
         <a href="https://www.gatsbyjs.org">Gatsby</a>
       </footer>
     </div>
-  )
+  </>)
 }
 
 export default Layout
