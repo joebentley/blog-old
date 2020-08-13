@@ -9,7 +9,7 @@ jobs:
     - name: Build Gatsby Site
       uses: jzweifel/gatsby-cli-github-action@master
       with:
-        gatsby-arg: build
+        gatsby-arg: build --prefix-paths
     - name: Install SSH key
       uses: shimataro/ssh-key-action@v2
       with:
