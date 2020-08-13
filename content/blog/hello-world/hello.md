@@ -4,6 +4,8 @@ date: "2020-08-13"
 description: "Hello Poetry"
 ---
 
+Forget not your true nature!
+
 ```poetry
 “Forget safety.
 Live where you fear to live.
