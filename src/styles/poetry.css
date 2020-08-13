@@ -1,0 +1,10 @@
+
+pre[class="language-poetry"] {
+  background: none;
+  margin-left: 1em;
+}
+
+pre[class="language-poetry"] > code {
+  font-family: 'Merriweather','Georgia', serif;
+  font-size: 1rem;
+}
