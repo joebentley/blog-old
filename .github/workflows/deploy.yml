@@ -25,5 +25,6 @@ jobs:
         cd blog
         ./deploy.sh
         cd ../joebentley.github.io
+        git add blog
         git commit -m "Updated blog"
         git push -u origin master
